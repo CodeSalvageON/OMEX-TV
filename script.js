@@ -16,15 +16,12 @@ function docReady(fn) {
 } 
 
 function showGUI () {
-  const jar = document.createElement("div");
-  
-  jar.id = "client_gui";
-
-  const jar_contents = document.getElementById(jar.id).innerHTML;
+  const ui = document.createElement("ui");
+  const ui_contents = document.getElementById("ui").innerHTML;
 
   const body = document.querySelector("body");
   
-  jar.innerHTML = jar_contents + gui;
+  ui.innerHTML = jar_contents + gui;
   body.style.overflow = "scroll";
 }
 
