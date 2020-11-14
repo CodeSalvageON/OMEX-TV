@@ -18,8 +18,11 @@ function docReady(fn) {
 function showGUI () {
   const jar = document.getElementById("fps");
   const jar_contents = document.getElementById("fps").innerHTML;
+
+  const body = document.querySelector("body");
   
   jar.innerHTML = jar_contents + gui;
+  body.style.overflow = "scroll";
 }
 
 docReady(function () {
