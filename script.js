@@ -20,7 +20,7 @@ function showGUI () {
   
   jar.id = "client_gui";
 
-  const jar_contents = document.getElementById("client_gui").innerHTML;
+  const jar_contents = document.getElementById(jar.id).innerHTML;
 
   const body = document.querySelector("body");
   
