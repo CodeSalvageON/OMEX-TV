@@ -16,8 +16,8 @@ function docReady(fn) {
 } 
 
 function showGUI () {
-  const ui = document.createElement("ui");
-  const ui_contents = document.getElementById("ui").innerHTML;
+  const ui = document.createElement("hud-buttons");
+  const ui_contents = document.getElementById("hud-buttons").innerHTML;
 
   const body = document.querySelector("body");
   
