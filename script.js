@@ -16,8 +16,11 @@ function docReady(fn) {
 } 
 
 function showGUI () {
-  const jar = document.getElementById("fps");
-  const jar_contents = document.getElementById("fps").innerHTML;
+  const jar = document.createElement("div");
+  
+  jar.id = "client_gui";
+
+  const jar_contents = document.getElementById("client_gui").innerHTML;
 
   const body = document.querySelector("body");
   
