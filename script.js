@@ -9,6 +9,8 @@ const gui = `
 <button>Open BioSphere Chatroom</button>
 `;
 
+const sky_canvas = document.getElementById("sky-canvas");
+
 function docReady(fn) {
   if (document.readyState === "complete" || document.readyState === "interactive") {
     setTimeout(fn, 1);
@@ -27,6 +29,8 @@ function showGUI () {
   
   body.style.overflow = "scroll";
   body.backgroundColor = "black";
+
+  sky_canvas.innerHTML = "";
 }
 
 docReady(function () {
