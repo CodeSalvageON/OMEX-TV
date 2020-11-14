@@ -29,12 +29,11 @@ function showGUI () {
   
   body.style.overflow = "scroll";
   body.backgroundColor = "black";
-
-  sky_canvas.innerHTML = "";
 }
 
 docReady(function () {
   showGUI();
 
   ui.innerHTML = gui;
+  sky_canvas.innerHTML = "";
 });
