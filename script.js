@@ -3,6 +3,8 @@
 
 const gui = `
 <button>Change Size of Sand Canvas</button>
+<button>Upload to the BioSphere</button>
+<button>Open BioSphere Chatroom</button>
 `;
 
 function docReady(fn) {
@@ -22,9 +24,10 @@ function showGUI () {
   const body = document.querySelector("body");
   
   body.style.overflow = "scroll";
-  ui.innerHTML = gui;
 }
 
 docReady(function () {
   showGUI();
+
+  ui.innerHTML = gui;
 });
