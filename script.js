@@ -21,7 +21,7 @@ function showGUI () {
 
   const body = document.querySelector("body");
   
-  ui.innerHTML = ui_contents + gui;
+  ui.innerHTML = gui;
   body.style.overflow = "scroll";
 }
 
