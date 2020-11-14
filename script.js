@@ -26,6 +26,7 @@ function showGUI () {
   const body = document.querySelector("body");
   
   body.style.overflow = "scroll";
+  body.backgroundColor = "black";
 }
 
 docReady(function () {
