@@ -3,7 +3,9 @@
 
 const gui = `
 <button>Change Size of Sand Canvas</button>
+<br/>
 <button>Upload to the BioSphere</button>
+<br/>
 <button>Open BioSphere Chatroom</button>
 `;
 
