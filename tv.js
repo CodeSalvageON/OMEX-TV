@@ -32,5 +32,5 @@ rtos.onclick = function () {
 }
 
 add.onclick = function () {
-  window.open("https://discord.com/api/oauth2/authorize?client_id=862464429912621078&permissions=1101696199687&scope=applications.commands%20bot");
+  window.open("https://discord.com/api/oauth2/authorize?client_id=874826554960658532&permissions=1101662645254&scope=applications.commands%20bot");
 }
