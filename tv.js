@@ -1,24 +1,24 @@
 const options = document.getElementById("options");
 const tossec = document.getElementById("tossec");
-const musicsec = document.getElementById("musicsec");
+const privacysec = document.getElementById("privacysec");
 
 const tos = document.getElementById("tos");
 const rtos = document.getElementById("rtos");
-const music = document.getElementById("music");
-const rmusic = document.getElementById("rmusic");
+const privacy = document.getElementById("privacy");
+const rprivacy = document.getElementById("rprivacy");
 const add = document.getElementById("add");
 
 tossec.style.display = "none";
-musicsec.style.display = "none";
+privacysec.style.display = "none";
 
-music.onclick = function () {
+privacy.onclick = function () {
   options.style.display = "none";
-  musicsec.style.display = "";
+  privacysec.style.display = "";
 }
 
-rmusic.onclick = function () {
+rprivacy.onclick = function () {
   options.style.display = "";
-  musicsec.style.display = "none";
+  privacysec.style.display = "none";
 }
 
 tos.onclick = function () {

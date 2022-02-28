@@ -2,6 +2,14 @@ body {
   background-color: black;
 }
 
+a {
+  color: green; font-style: underline;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
 iframe {
   border-radius: 3.5px;
 }
